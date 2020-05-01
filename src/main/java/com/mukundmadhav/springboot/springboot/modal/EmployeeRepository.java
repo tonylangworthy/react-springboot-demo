@@ -1,0 +1,7 @@
+package com.mukundmadhav.springboot.springboot.modal;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface EmployeeRepository extends CrudRepository<Employee, Long>{
+
+}
